@@ -21,7 +21,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/saagarsocean/bullforce-auth.git
+    git clone https://github.com/saagarsocean/bullforce.git
     ```
 2. Navigate to the frontend directory:
     ```bash
