@@ -23,31 +23,43 @@ Before you begin, ensure you have the following installed:
     ```bash
     git clone https://github.com/saagarsocean/bullforce.git
     ```
-2. Navigate to the frontend directory:
+
+2. Navigate to the project directory:
     ```bash
     cd bullforce
     ```
-3. Install the dependencies:
+
+3. Navigate to the `client` directory:
+    ```bash
+    cd client
+    ```
+
+4. Install the frontend dependencies:
     ```bash
     npm install
     ```
-4. Start the development server:
+
+5. Start the development server for the frontend:
     ```bash
     npm start
     ```
+
    The frontend should now be running at `http://localhost:3000`.
 
 ### Backend Setup
 
-1. Navigate to the backend directory:
+1. Go back to the root of the project directory and navigate to the `api` directory:
     ```bash
-    cd server
+    cd ..
+    cd api
     ```
+
 2. Install the backend dependencies:
     ```bash
     npm install
     ```
-3. Create a `.env` file in the root of the backend directory with the following variables:
+
+3. Create a `.env` file in the root of the `api` directory with the following variables:
 
     ```env
     MAIL_HOST=smtp.gmail.com
@@ -85,4 +97,3 @@ Feel free to fork the repository and submit pull requests for any improvements o
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
