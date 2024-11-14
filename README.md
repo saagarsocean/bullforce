@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed:
     ```
 2. Navigate to the frontend directory:
     ```bash
-    cd bullforce-auth
+    cd bullforce
     ```
 3. Install the dependencies:
     ```bash
